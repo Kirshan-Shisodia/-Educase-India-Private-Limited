@@ -1,0 +1,49 @@
+.loginFormComp{
+  width: 75%;
+  margin: auto;
+  height: auto;
+}
+
+.loginForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 80%;
+    margin: 7px;     
+}
+
+.loginForm input{
+    border-radius : 35px;
+    border : 1.5px solid #E70B89;
+    height: 50px;
+    margin-top: 15px;
+}
+
+::placeholder{
+   padding-left: 20px;
+   font-weight: 600; 
+   font-size: 16px;
+   color: #1A1A1A;
+   opacity: 0.56;
+}
+
+.loginForm button{
+    all: unset;
+    height: 50px;
+    background-color: #E70B89;
+    border-radius: 35px;
+    color: white;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.fplink{
+    text-decoration: none;
+    text-align: right;
+    margin-top: 15px;
+}
+
+.fplink a{
+    text-decoration: none;
+    color: #E70B89;
+}
